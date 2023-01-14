@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alerts</title>
+</head>
+<body>
+
+<script>
+
+  let car = "Toyota"
+  console.log("My car = "+ car)
+  document.write("<h1>My car = " + car + "</h1>")
+
+  alert("Подтвердите форматирование диска С")
+
+  answer = confirm("Как дела?")
+
+  if(answer){
+    document.write("Хорошее настроение <br>")
+  }else {
+    document.write("Плохое настроение <br>")
+  }
+
+  let firstName = prompt("Как тебя зовут?", "Женя");
+
+  document.write("Меня зовут " + firstName)
+
+</script>
+
+</body>
+</html>

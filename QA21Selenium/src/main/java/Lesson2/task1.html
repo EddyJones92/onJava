@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+
+    <style>
+        td, th {
+            border: 1px black solid;
+            border-spacing: unset;
+            border-radius: 5px;
+        }
+        td:hover,th:hover{
+            background-color: lightgreen;
+        }
+        td:active{
+            background-color: red;
+        }
+    </style>
+
+</head>
+<body>
+<abbr title="Hyper text markup language">HTML</abbr>
+
+<table>
+    <caption>My price</caption>
+    <colgroup>
+        <col style="background-color: blueviolet">
+    </colgroup>
+    <thead>
+    <tr>
+        <th>Number</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <th>1</th>
+        <td>Jack</td>
+        <td>Good guy</td>
+        <td>10000</td>
+    </tr>
+    <tr>
+        <th>2</th>
+        <td>Black</td>
+        <td rowspan="3" style="text-align: center">Nice</td>
+        <td>80000</td>
+    </tr>
+    <tr>
+        <th>3</th>
+        <td>Black</td>
+        <td>75000</td>
+    </tr>
+    <tr>
+        <th>4</th>
+        <td>Black</td>
+        <td>12000</td>
+    </tr>
+    <tr>
+        <td colspan="3"></td>
+        <td>1500000</td>
+    </tr>
+    </tbody>
+</table>
+
+
+</body>
+</html>
